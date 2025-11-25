@@ -17,8 +17,7 @@ word_index = imdb.get_word_index()
 reverse_word_index = {value: key for key, value in word_index.items()}
 
 # Load the trained LSTM model from your NLP folder
-model = load_model(
-    "/Users/augustfjortoft/Documents/SKOLE HK/Utveksling/NLP/imdb_lstm_fjoertoft.h5"
+model = load_model("imdb_lstm_fjoertoft.h5")
 )
 
 #Helper functions
